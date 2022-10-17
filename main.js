@@ -18,7 +18,7 @@ let sums = [sum1, sum2, sum3, sum4_5, sum6];
 let quiz1 = 28
 
 // Total score
-let total_score = (60*((sum1/40 + sum2/40 + sum3/40 + sum4_5/80 + sum6/40)/5)) + (40*(quiz1/40))
+let total_score = (0.6*((sum1/40 + sum2/40 + sum3/40 + sum4_5/80 + sum6/40)/5)) + (0.4*(quiz1/40))
 
 const results = { 
     lab1: [5,5,5,5,10,10],
